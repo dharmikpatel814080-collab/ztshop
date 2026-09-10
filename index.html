@@ -32,7 +32,6 @@
             overflow-x: hidden;
         }
 
-        /* --- Global Components --- */
         .container {
             max-width: 1200px;
             margin: 0 auto;
@@ -62,7 +61,6 @@
             box-shadow: 0 10px 20px rgba(255, 0, 0, 0.3);
         }
 
-        /* --- Navbar --- */
         nav {
             position: fixed;
             top: 0;
@@ -112,7 +110,6 @@
             cursor: pointer;
         }
 
-        /* --- Hero Section --- */
         .hero {
             height: 90vh;
             display: flex;
@@ -141,7 +138,6 @@
             margin: 0 auto 2rem;
         }
 
-        /* --- Pricing Section --- */
         .pricing {
             padding: 100px 0;
         }
@@ -203,7 +199,6 @@
             color: var(--text-dim);
         }
 
-        /* --- Contact Form --- */
         .contact {
             padding: 100px 0;
             background: #0f0f0f;
@@ -241,7 +236,6 @@
             border-color: var(--primary);
         }
 
-        /* --- Footer --- */
         footer {
             padding: 50px 0;
             text-align: center;
@@ -266,7 +260,6 @@
             transform: scale(1.2);
         }
 
-        /* --- Mobile Responsiveness --- */
         @media (max-width: 768px) {
             .nav-links {
                 display: none;
@@ -300,14 +293,24 @@
     <nav>
         <div class="container nav-content">
             <a href="#" class="logo">ZT LIVE</a>
+
             <div class="menu-toggle" id="mobile-menu">
                 <i class="fas fa-bars"></i>
             </div>
+
             <ul class="nav-links" id="nav-list">
                 <li><a href="#home">Home</a></li>
                 <li><a href="#pricing">Pricing</a></li>
                 <li><a href="#contact">Contact</a></li>
-                <li><a href="https://discordapp.com/channels/1472455882809016425/1472493032262729799" class="btn btn-primary" style="padding: 8px 20px;">Join Discord</a></li>
+
+                <!-- UPDATED DISCORD LINK -->
+                <li>
+                    <a href="https://discord.gg/vZBHFTSegx"
+                       class="btn btn-primary"
+                       style="padding: 8px 20px;">
+                        Join Discord
+                    </a>
+                </li>
             </ul>
         </div>
     </nav>
@@ -315,143 +318,247 @@
     <section class="hero" id="home">
         <div class="container hero-content">
             <h1>WELCOME TO <br><span>ZT LIVE</span></h1>
-            <p>Premium Discord Server setups at unbeatable prices. Fast response, trusted service, and 24/7 support.</p>
+
+            <p>
+                Premium Discord Server setups at unbeatable prices.
+                Fast response, trusted service, and 24/7 support.
+            </p>
+
             <div class="hero-btns">
-                <a href="#pricing" class="btn btn-primary">View Pricing</a>
-                <a href="https://discordapp.com/channels/1472455882809016425/1472493032262729799" class="btn" style="border: 1px solid white; margin-left: 10px; color: white;">Discord Channel</a>
+                <a href="#pricing" class="btn btn-primary">
+                    View Pricing
+                </a>
+
+                <!-- UPDATED DISCORD LINK -->
+                <a href="https://discord.gg/vZBHFTSegx"
+                   class="btn"
+                   style="border: 1px solid white; margin-left: 10px; color: white;">
+                    Discord Channel
+                </a>
             </div>
         </div>
     </section>
 
     <section class="pricing" id="pricing">
         <div class="container">
+
             <div class="section-title">
                 <h2>Our Pricing</h2>
                 <div></div>
-                <p style="color: var(--text-dim);">Limited Time Offer — Only ₹100</p>
+                <p style="color: var(--text-dim);">
+                    Limited Time Offer — Only ₹100
+                </p>
             </div>
+
             <div class="grid">
+
                 <div class="card">
                     <i class="fas fa-gamepad"></i>
                     <h3>Gaming Server</h3>
                     <div class="price">₹100</div>
+
                     <ul>
                         <li>Full Setup</li>
                         <li>Permissions Config</li>
                         <li>Gaming Bots</li>
                     </ul>
-                    <a href="https://discordapp.com/channels/1472455882809016425/1472493032262729799" class="btn btn-primary">Order Now</a>
+
+                    <!-- UPDATED DISCORD LINK -->
+                    <a href="https://discord.gg/vZBHFTSegx"
+                       class="btn btn-primary">
+                        Order Now
+                    </a>
                 </div>
 
                 <div class="card" style="border-color: var(--primary);">
                     <i class="fas fa-cubes"></i>
                     <h3>SMP Server</h3>
                     <div class="price">₹100</div>
+
                     <ul>
                         <li>Minecraft Optimized</li>
                         <li>Staff Roles</li>
                         <li>Automated Logs</li>
                     </ul>
-                    <a href="https://discordapp.com/channels/1472455882809016425/1472493032262729799" class="btn btn-primary">Order Now</a>
+
+                    <!-- UPDATED DISCORD LINK -->
+                    <a href="https://discord.gg/vZBHFTSegx"
+                       class="btn btn-primary">
+                        Order Now
+                    </a>
                 </div>
 
                 <div class="card">
                     <i class="fas fa-plus-circle"></i>
                     <h3>Other Server</h3>
                     <div class="price">₹100</div>
+
                     <ul>
                         <li>Custom Community</li>
                         <li>Professional UI</li>
                         <li>Safe & Secure</li>
                     </ul>
-                    <a href="https://discordapp.com/channels/1472455882809016425/1472493032262729799" class="btn btn-primary">Order Now</a>
+
+                    <!-- UPDATED DISCORD LINK -->
+                    <a href="https://discord.gg/vZBHFTSegx"
+                       class="btn btn-primary">
+                        Order Now
+                    </a>
                 </div>
+
             </div>
         </div>
     </section>
 
     <section class="contact" id="contact">
         <div class="container">
+
             <div class="section-title">
                 <h2>Secure Inquiry</h2>
                 <div></div>
             </div>
+
             <div class="contact-container">
+
                 <form id="contactForm">
+
                     <div class="form-group">
                         <label>Discord Username</label>
-                        <input type="text" placeholder="User#0000" required>
+                        <input type="text"
+                               placeholder="User#0000"
+                               required>
                     </div>
+
                     <div class="form-group">
                         <label>Interested In</label>
+
                         <select style="width: 100%; padding: 12px; background: #222; border: 1px solid #333; color: white; border-radius: 5px;">
                             <option>Gaming Server</option>
                             <option>SMP Server</option>
                             <option>Other</option>
                         </select>
                     </div>
+
                     <div class="form-group">
                         <label>Message</label>
-                        <textarea rows="5" placeholder="Details about your server..."></textarea>
+
+                        <textarea rows="5"
+                                  placeholder="Details about your server...">
+                        </textarea>
                     </div>
-                    <button type="submit" class="btn btn-primary" style="width: 100%;">Submit Inquiry</button>
+
+                    <button type="submit"
+                            class="btn btn-primary"
+                            style="width: 100%;">
+                        Submit Inquiry
+                    </button>
+
                 </form>
+
                 <p style="font-size: 0.8rem; margin-top: 15px; text-align: center; color: var(--text-dim);">
-                    <i class="fas fa-shield-alt"></i> No spamming. Contact only via official payment methods.
+                    <i class="fas fa-shield-alt"></i>
+                    No spamming. Contact only via official payment methods.
                 </p>
+
             </div>
         </div>
     </section>
 
     <footer>
         <div class="container">
+
             <div class="social-links">
-                <a href="#"><i class="fab fa-discord"></i></a>
-                <a href="#"><i class="fab fa-twitter"></i></a>
-                <a href="#"><i class="fab fa-youtube"></i></a>
+
+                <!-- UPDATED DISCORD LINK -->
+                <a href="https://discord.gg/vZBHFTSegx">
+                    <i class="fab fa-discord"></i>
+                </a>
+
+                <a href="#">
+                    <i class="fab fa-twitter"></i>
+                </a>
+
+                <!-- UPDATED YOUTUBE LINK -->
+                <a href="https://youtube.com/@ztlive1?si=OwjA3OFyYq1to5dh">
+                    <i class="fab fa-youtube"></i>
+                </a>
+
             </div>
-            <p>&copy; 2026 ZT LIVE. All rights reserved.</p>
-            <p style="color: var(--primary); font-size: 0.9rem; margin-top: 10px;">Trusted • Fast • Secure</p>
+
+            <p>
+                &copy; 2026 ZT LIVE. All rights reserved.
+            </p>
+
+            <p style="color: var(--primary); font-size: 0.9rem; margin-top: 10px;">
+                Trusted • Fast • Secure
+            </p>
+
         </div>
     </footer>
 
     <script>
+
         // Mobile Menu Logic
         const mobileMenu = document.getElementById('mobile-menu');
         const navList = document.getElementById('nav-list');
 
         mobileMenu.addEventListener('click', () => {
+
             navList.classList.toggle('active');
+
             const icon = mobileMenu.querySelector('i');
+
             icon.classList.toggle('fa-bars');
             icon.classList.toggle('fa-times');
+
         });
 
         // Close menu on link click
         document.querySelectorAll('.nav-links a').forEach(link => {
+
             link.addEventListener('click', () => {
+
                 navList.classList.remove('active');
+
                 mobileMenu.querySelector('i').classList.add('fa-bars');
+
             });
+
         });
 
         // Simple Smooth Scroll
         document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+
             anchor.addEventListener('click', function (e) {
-                if(this.getAttribute('href') !== '#') {
+
+                if (this.getAttribute('href') !== '#') {
+
                     e.preventDefault();
-                    document.querySelector(this.getAttribute('href')).scrollIntoView({
+
+                    document.querySelector(
+                        this.getAttribute('href')
+                    ).scrollIntoView({
                         behavior: 'smooth'
                     });
+
                 }
+
             });
+
         });
 
         // Form Submission Placeholder
         document.getElementById('contactForm').addEventListener('submit', (e) => {
+
             e.preventDefault();
-            alert('Inquiry Sent! Please ensure you send your payment screenshot to verified Admins on Discord.');
+
+            alert(
+                'Inquiry Sent! Please ensure you send your payment screenshot to verified Admins on Discord.'
+            );
+
         });
+
     </script>
+
 </body>
-</html>
+                    </html>
